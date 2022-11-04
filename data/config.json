@@ -1,0 +1,40 @@
+{
+    "Sections" : [
+        "Resources",
+        "moduleConfigSection",
+        "scriptingConfigSection",
+        "moduleBrainSection",
+        "moduleWorldSection"
+    ],
+
+    "Resources":[
+        "Proline.Resource.Client",
+        "Proline.Resource.Configuration.Client",
+        "Proline.Resource.IO.Client",
+        "Proline.Resource.Framework.Client",
+        "Proline.Resource.Logging.Client",
+        "Proline.Resource.Globals.Client"
+    ], 
+
+    "LoggingConfiguration": {
+
+    },
+
+    "moduleConfigSection" : {
+        
+    },
+	
+	"scriptingConfigSection" :{ 
+        
+    },
+	"moduleBrainSection" :{ 
+		"Data" : {
+                
+		}
+    },
+    "moduleWorldSection" : { 
+		"Data" : {
+                
+		}
+    } 
+}
