@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net452</TargetFramework>
+		<Platforms>AnyCPU</Platforms>
+		<Configurations>Debug;Release</Configurations>
+		<AssemblyName>$(MSBuildProjectName)</AssemblyName> 
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="CitizenFX.Core.Client" Version="1.0.5738" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\components\CInputOutput\CInputOutput.csproj" />
+	  <ProjectReference Include="..\..\components\CTrading\CTrading.csproj" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<Reference Include="Microsoft.CSharp" />
+		<Reference Include="Newtonsoft.Json">
+			<HintPath>..\..\..\vendor\NewtonsoftJson\V10.0-Portable\Newtonsoft.Json.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+</Project>

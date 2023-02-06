@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{1BE980BE-E8C7-4B73-A915-1151FC89F7ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CInputOutput", "components\CInputOutput\CInputOutput.csproj", "{D09F8DBD-91F0-43B4-AD26-3EEBEF9F00FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CTrading", "components\CTrading\CTrading.csproj", "{2E9CAD96-F015-495F-B0F6-96363F2E8614}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D09F8DBD-91F0-43B4-AD26-3EEBEF9F00FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D09F8DBD-91F0-43B4-AD26-3EEBEF9F00FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D09F8DBD-91F0-43B4-AD26-3EEBEF9F00FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D09F8DBD-91F0-43B4-AD26-3EEBEF9F00FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E9CAD96-F015-495F-B0F6-96363F2E8614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E9CAD96-F015-495F-B0F6-96363F2E8614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E9CAD96-F015-495F-B0F6-96363F2E8614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E9CAD96-F015-495F-B0F6-96363F2E8614}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D09F8DBD-91F0-43B4-AD26-3EEBEF9F00FE} = {1BE980BE-E8C7-4B73-A915-1151FC89F7ED}
+		{2E9CAD96-F015-495F-B0F6-96363F2E8614} = {1BE980BE-E8C7-4B73-A915-1151FC89F7ED}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {435C629E-2D36-447E-8887-47C1B216F8C8}
+	EndGlobalSection
+EndGlobal
