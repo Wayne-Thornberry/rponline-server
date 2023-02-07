@@ -51,5 +51,8 @@
 		  <HintPath>..\..\..\vendor\Online-Resource-Libraries\Server\v0.1.0\Proline.Resource.Scripting.Server.dll</HintPath>
 	  </Reference>
 	  <Reference Include="System.Net.Http" />
+  </ItemGroup> 
+  <ItemGroup>
+    <Folder Include="Internal\" />
   </ItemGroup>
 </Project>

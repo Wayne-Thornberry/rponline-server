@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CInputOutput
+namespace RPOnlineGame.Handlers
 {
     public static class EventNameDefinitions
     {
