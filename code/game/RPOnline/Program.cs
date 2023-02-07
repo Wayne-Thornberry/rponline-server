@@ -8,6 +8,7 @@ namespace RPOnlineGame
     {
         public override async Task OnStart()
         {
+            base.OnStart();
             ConsoleWriteAction.SubscribeEvent();
             ConsoleWriteLineAction.SubscribeEvent();
             DeleteItemRequestAction.SubscribeEvent(); 

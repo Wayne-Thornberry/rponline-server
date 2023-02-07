@@ -13,32 +13,35 @@
 		<Reference Include="Newtonsoft.Json">
 			<HintPath>..\..\..\vendor\NewtonsoftJson\V10.0-Portable\Newtonsoft.Json.dll</HintPath>
 		</Reference>
-		<Reference Include="Proline.Resource.Server">
-			<HintPath>..\..\..\vendor\Online-Resource-Libraries\Server\v0.1.0\Proline.Resource.Server.dll</HintPath>
-		</Reference>
 		<Reference Include="Proline.Resource.Component.Server">
-			<HintPath>..\..\..\vendor\Online-Resource-Libraries\Server\v0.1.0\Proline.Resource.Component.Server.dll</HintPath>
+			<HintPath>..\..\..\vendor\Online-Resource-Libraries\v0.1.0\Proline.Resource.Component.Server.dll</HintPath>
 		</Reference>
 		<Reference Include="Proline.Resource.Configuration.Server">
-			<HintPath>..\..\..\vendor\Online-Resource-Libraries\Server\v0.1.0\Proline.Resource.Configuration.Server.dll</HintPath>
+			<HintPath>..\..\..\vendor\Online-Resource-Libraries\v0.1.0\Proline.Resource.Configuration.Server.dll</HintPath>
 		</Reference>
 		<Reference Include="Proline.Resource.Eventing.Server">
-			<HintPath>..\..\..\vendor\Online-Resource-Libraries\Server\v0.1.0\Proline.Resource.Eventing.Server.dll</HintPath>
+			<HintPath>..\..\..\vendor\Online-Resource-Libraries\v0.1.0\Proline.Resource.Eventing.Server.dll</HintPath>
+		</Reference>
+		<Reference Include="Proline.Resource.Fram.Server">
+			<HintPath>..\..\..\vendor\Online-Resource-Libraries\v0.1.0\Proline.Resource.Fram.Server.dll</HintPath>
 		</Reference>
 		<Reference Include="Proline.Resource.Framework.Server">
-			<HintPath>..\..\..\vendor\Online-Resource-Libraries\Server\v0.1.0\Proline.Resource.Framework.Server.dll</HintPath>
+			<HintPath>..\..\..\vendor\Online-Resource-Libraries\v0.1.0\Proline.Resource.Framework.Server.dll</HintPath>
 		</Reference>
 		<Reference Include="Proline.Resource.Globals.Server">
-			<HintPath>..\..\..\vendor\Online-Resource-Libraries\Server\v0.1.0\Proline.Resource.Globals.Server.dll</HintPath>
+			<HintPath>..\..\..\vendor\Online-Resource-Libraries\v0.1.0\Proline.Resource.Globals.Server.dll</HintPath>
 		</Reference>
 		<Reference Include="Proline.Resource.IO.Server">
-			<HintPath>..\..\..\vendor\Online-Resource-Libraries\Server\v0.1.0\Proline.Resource.IO.Server.dll</HintPath>
+			<HintPath>..\..\..\vendor\Online-Resource-Libraries\v0.1.0\Proline.Resource.IO.Server.dll</HintPath>
 		</Reference>
 		<Reference Include="Proline.Resource.Logging.Server">
-			<HintPath>..\..\..\vendor\Online-Resource-Libraries\Server\v0.1.0\Proline.Resource.Logging.Server.dll</HintPath>
+			<HintPath>..\..\..\vendor\Online-Resource-Libraries\v0.1.0\Proline.Resource.Logging.Server.dll</HintPath>
 		</Reference>
 		<Reference Include="Proline.Resource.Scripting.Server">
-			<HintPath>..\..\..\vendor\Online-Resource-Libraries\Server\v0.1.0\Proline.Resource.Scripting.Server.dll</HintPath>
+			<HintPath>..\..\..\vendor\Online-Resource-Libraries\v0.1.0\Proline.Resource.Scripting.Server.dll</HintPath>
+		</Reference>
+		<Reference Include="Proline.Resource.Server">
+			<HintPath>..\..\..\vendor\Online-Resource-Libraries\v0.1.0\Proline.Resource.Server.dll</HintPath>
 		</Reference>
 	</ItemGroup>
 	<ItemGroup>
