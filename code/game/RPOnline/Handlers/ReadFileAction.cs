@@ -14,11 +14,9 @@ namespace RPOnlineGame.Handlers
 {
     public class ReadFileAction : ExtendedEvent
     {
-        private static ExtendedEvent _event;
+        private static ExtendedEvent _event; 
 
-        public string Data { get; set; }
-
-        public ReadFileAction() : base(EventNameDefinitions.LoadFileHandler, true)
+        public ReadFileAction() : base("LoadFileHandler", true)
         {
 
         }

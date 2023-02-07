@@ -25,7 +25,7 @@ namespace RPOnlineGame.Handlers
             }
         }
 
-        public ConsoleWriteAction() : base(EventNameDefinitions.ConsoleWriteHandler, false)
+        public ConsoleWriteAction() : base("ConsoleWriteHandler", false)
         {
 
         }

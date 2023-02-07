@@ -16,11 +16,10 @@ namespace RPOnlineGame.Handlers
     {
         private static ExtendedEvent _event;
 
-        public WriteFileAction() : base(EventNameDefinitions.SaveFileHandler, false)
+        public WriteFileAction() : base("SaveFileHandler", false)
         {
 
-        }
-
+        } 
 
         public static void SubscribeEvent()
         {

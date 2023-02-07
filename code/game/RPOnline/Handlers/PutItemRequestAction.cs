@@ -26,8 +26,7 @@ namespace RPOnlineGame.Handlers
                 _event = new PutItemRequestAction();
                 _event.Subscribe();
             }
-        }
-         
+        } 
 
         protected override object OnEventTriggered(Player player, params object[] args)
         {
